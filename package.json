@@ -1,5 +1,5 @@
 {
-  "name": "hoobank",
+  "name": "Fixal Constructions",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "lottie-react": "^2.4.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-typical": "^0.1.3"
   },
   "devDependencies": {

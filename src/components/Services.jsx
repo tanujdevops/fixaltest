@@ -7,17 +7,26 @@ const Services = () => (
   <section id="services" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Let's Experience <br className="sm:block hidden" /> Our Services
+        Our Services
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      At FIXAL, we go beyond constructing with concrete and steel; 
-      we forge enduring relationships. 
-      Our partnership approach is at the heart of every project we manage, 
-      be it major developments or remedial services. From concept to completion, 
-      we assist our clients and take pride in offering comprehensive construction-based solutions.
+        At FIXAL, we offer a wide range of services to meet your construction and maintenance needs. Our services include:
       </p>
 
-      <Button styles={`mt-10`} />
+      <ul className={`${styles.paragraph} mt-5 list-disc pl-8`}>
+        <li>Waterproofing</li>
+        <li>Electrical services</li>
+        <li>Plumbing solutions</li>
+        <li>Painting and refinishing</li>
+        <li>Tile fitting and installation</li>
+        <li>Carpentry and woodwork</li>
+        <li>Metal fabrication</li>
+        <li>Masonry and bricklaying</li>
+        <li>Aluminum window installation</li>
+        <li>All construction services</li>
+      </ul>
+
+      <Button styles={`mt-10`} buttonText="Get a Quote" />
     </div>
 
     <div className={layout.sectionImg}>
