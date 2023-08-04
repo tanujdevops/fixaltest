@@ -52,25 +52,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "Fixal made apartment maintenance a breeze. Easy booking and efficient service, highly recommended!",
     name: "Herman Jensen",
-    title: "Founder & Leader",
+    title: "Apartment Owner",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "Fixal's WhatsApp service is a game-changer. Quick communication and hassle-free scheduling for all our maintenance needs.",
     name: "Steve Mark",
-    title: "Founder & Leader",
+    title: "Apartment Resident",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Fixal's team is professional and reliable. They've helped us with various repairs, and their WhatsApp platform is super convenient.",
     name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    title: "Property Manager",
     img: people03,
   },
 ];
