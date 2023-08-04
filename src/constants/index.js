@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -6,16 +6,21 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
+    id: "about_us",
     title: "About Us",
   },
   {
-    id: "product",
+    id: "how_we_work",
+    title: "How We Work",
+  },
+  {
+    id: "services",
     title: "Services",
   },
   {
-    id: "clients",
+    id: "book_now",
     title: "Book Now",
+    url: "https://fixal.seaquid.com/booknow.php",
   },
 ];
 
@@ -174,24 +179,5 @@ export const socialMedia = [
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/",
-  },
-];
-
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
   },
 ];

@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 
@@ -7,9 +6,17 @@ const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
 
+  const handleNavItemClick = (nav) => {
+    setActive(nav.title);
+    if (nav.id === "book_now") {
+      // Redirect to the external URL for "Book Now"
+      window.location.href = nav.url;
+    }
+  };
+
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[100px] h-[100px]" />
+      <img src={logo} alt="hoobank" className="w-[125px] h-[125px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -18,7 +25,7 @@ const Navbar = () => {
             className={`font-poppins font-normal cursor-pointer text-[16px] ${
               active === nav.title ? "text-white" : "text-dimWhite"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
-            onClick={() => setActive(nav.title)}
+            onClick={() => handleNavItemClick(nav)}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
@@ -45,7 +52,7 @@ const Navbar = () => {
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
                   active === nav.title ? "text-white" : "text-dimWhite"
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
-                onClick={() => setActive(nav.title)}
+                onClick={() => handleNavItemClick(nav)}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>

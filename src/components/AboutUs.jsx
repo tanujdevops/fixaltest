@@ -18,8 +18,8 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
-const Business = () =>  (
-  <section id="features" className={layout.section}>
+const AboutUs = () =>  (
+  <section id="about_us" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         Your One-Stop Solution for Apartment Maintenance Services!
@@ -40,4 +40,4 @@ const Business = () =>  (
   </section>
 );
 
-export default Business;
+export default AboutUs;
