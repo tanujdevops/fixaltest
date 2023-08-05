@@ -10,17 +10,22 @@ export const navLinks = [
     title: "About Us",
   },
   {
-    id: "how_we_work",
-    title: "How We Work",
-  },
-  {
     id: "services",
     title: "Services",
+  },
+  {
+    id: "contact_us",
+    title: "Contact Us",
+    url: "https://fixal.seaquid.com/contact-us.php"
   },
   {
     id: "book_now",
     title: "Book Now",
     url: "https://fixal.seaquid.com/booknow.php",
+  },
+  {
+    id: "login",
+    title: "Login",
   },
 ];
 

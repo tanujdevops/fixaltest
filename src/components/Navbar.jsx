@@ -12,6 +12,10 @@ const Navbar = () => {
       // Redirect to the external URL for "Book Now"
       window.location.href = nav.url;
     }
+    if (nav.id === "contact_us") {
+      // Redirect to the external URL for "Book Now"
+      window.location.href = nav.url;
+    }
   };
 
   return (

@@ -4,7 +4,7 @@ import Lottie from 'lottie-react';
 import animation from '../assets/animation_how.json';
 
 const HowWeWork = () => (
-  <section id="how_we_work" className={layout.sectionReverse}>
+  <section className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <Lottie animationData={animation} className="w-[600px] h-[600px] relative z-[5]" />
       {/* gradient start */}
