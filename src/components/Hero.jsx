@@ -39,9 +39,9 @@
           </div>
 
           <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-
-          Design. Build. Maintain.
-
+            
+          Quick-Fix WhatsApp Service.
+          
           </p>
           
           <div style={{ height: "30px" }}></div>
