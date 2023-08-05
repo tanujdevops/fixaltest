@@ -40,7 +40,7 @@
 
           <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
             
-            Apartment Care on WhatsApp.
+            Apartment Maintenance via WhatsApp.
 
           </p>
           
