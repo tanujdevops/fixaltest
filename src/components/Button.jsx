@@ -3,7 +3,7 @@ import React from "react";
 const Button = ({ styles }) => {
   const handleButtonClick = () => {
     // Open the link in a new window
-    window.open("https://fixal.seaquid.com/booknow.php", "_blank");
+    window.location.href = "https://fixal.seaquid.com/booknow.php";
   };
 
   return (
