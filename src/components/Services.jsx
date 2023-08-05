@@ -15,15 +15,15 @@ const Services = () => (
 
       <ul className={`${styles.paragraph} mt-5 list-disc pl-8`}>
         <li>Waterproofing</li>
-        <li>Electrical services</li>
-        <li>Plumbing solutions</li>
-        <li>Painting and refinishing</li>
-        <li>Tile fitting and installation</li>
-        <li>Carpentry and woodwork</li>
-        <li>Metal fabrication</li>
-        <li>Masonry and bricklaying</li>
-        <li>Aluminum window installation</li>
-        <li>All construction services</li>
+        <li>Electrical Services</li>
+        <li>Plumbing Solutions</li>
+        <li>Painting and Refinishing</li>
+        <li>Tile Fitting and Installation</li>
+        <li>Carpentry and Woodwork</li>
+        <li>Metal Fabrication</li>
+        <li>Masonry and Bricklaying</li>
+        <li>Aluminum Window Installation</li>
+        <li>All Construction Services</li>
       </ul>
 
       <Button styles={`mt-10`} buttonText="Get a Quote" />
