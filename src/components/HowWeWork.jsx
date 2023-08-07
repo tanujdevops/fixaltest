@@ -25,7 +25,7 @@ const HowWeWork = () => (
       making apartment maintenance a breeze.
       </p>
 
-        <Lottie animationData={animation_whatsapp} className="w-[75px] h-[75px] relative z-[5]" />
+        <Lottie animationData={animation_whatsapp} className="mt-5 w-[75px] h-[75px]" />
     </div>
   </section>
 );
