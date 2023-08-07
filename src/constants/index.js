@@ -57,25 +57,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Fixal made apartment maintenance a breeze. Easy booking and efficient service, highly recommended!",
-    name: "Anika Sharma",
-    title: "Apartment Owner",
-    img: people01,
+      "Fixal's team is professional and reliable. They've helped us with various repairs, and their WhatsApp platform is super convenient.",
+    name: "Sudharma Tikke",
+    title: "Property Manager",
+    img: people03,
   },
   {
     id: "feedback-2",
     content:
-      "Fixal's WhatsApp service is a game-changer. Quick communication and hassle-free scheduling for all our maintenance needs.",
+      "Fixal made apartment maintenance a breeze. Easy booking and efficient service, highly recommended!",
     name: "Rohan Ghatge",
-    title: "Apartment Resident",
+    title: "Apartment Owner",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "Fixal's team is professional and reliable. They've helped us with various repairs, and their WhatsApp platform is super convenient.",
-    name: "Sudharma Tikke",
-    title: "Property Manager",
+      "Fixal's WhatsApp service is a game-changer. Quick communication and hassle-free scheduling for all our maintenance needs.",
+    name: "Anika Sharma",
+    title: "Apartment Resident",
     img: people03,
   },
 ];
