@@ -76,7 +76,7 @@ export const feedback = [
       "Fixal's WhatsApp service is a game-changer. Quick communication and hassle-free scheduling for all our maintenance needs.",
     name: "Anika Sharma",
     title: "Apartment Resident",
-    img: people03,
+    img: people01,
   },
 ];
 
