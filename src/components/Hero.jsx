@@ -27,7 +27,7 @@
             <Typical 
               loop={Infinity} 
               wrapper="span"
-              steps={['Easy.',2500,'Flexible.',2500,'Secured.',3500]}>
+              steps={['Easy.',3000,'Reliable.',3000,'Secured.',3000]}>
             </Typical>
 
           </h1>
