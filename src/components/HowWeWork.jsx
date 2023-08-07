@@ -1,7 +1,7 @@
-import whatsapp from "../assets/whatsapp.png";
 import styles, { layout } from "../style";
 import Lottie from 'lottie-react';
 import animation from '../assets/animation_how.json';
+import animation_whatsapp from '../assets/animation_whatsapp.json';
 
 const HowWeWork = () => (
   <section className={layout.sectionReverse}>
@@ -25,10 +25,7 @@ const HowWeWork = () => (
       making apartment maintenance a breeze.
       </p>
 
-      <div className="flex flex-row flex-wrap">
-        <img src={whatsapp} alt="GIF" className="w-[168.86px] h-[112.05px] object-contain cursor-pointer" />
-        
-      </div>
+        <Lottie animationData={animation_whatsapp} className="w-[75px] h-[75px] relative z-[5]" />
     </div>
   </section>
 );
