@@ -14,14 +14,14 @@ export const navLinks = [
     title: "Services",
   },
   {
-    id: "contact_us",
-    title: "Contact Us",
-    url: "https://fixal.seaquid.com/contact-us.php"
-  },
-  {
     id: "book_now",
     title: "Book Now",
     url: "https://fixal.seaquid.com/booknow.php",
+  },
+  {
+    id: "contact_us",
+    title: "Contact Us",
+    url: "https://fixal.seaquid.com/contact-us.php"
   },
   {
     id: "login",
