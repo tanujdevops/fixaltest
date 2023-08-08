@@ -50,7 +50,7 @@
         
         <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative items-center justify-center flex-col`}>
     
-          <Lottie animationData={animationData}/>
+          <Lottie animationData={animationData} className="mb-10"/>
 
           {/* gradient start */}
           <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
