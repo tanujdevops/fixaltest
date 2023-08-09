@@ -27,7 +27,7 @@ const Hero = () => {
           <Typical 
             loop={Infinity} 
             wrapper="span"
-            steps={['Easy.',3000,'Reliable.',3000,'Secured.',3000]}>
+            steps={['Easy.',4000,'Reliable.',3000,'Secured.',3000]}>
           </Typical>
 
         </h1>
