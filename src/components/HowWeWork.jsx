@@ -14,7 +14,7 @@ const HowWeWork = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Let's Experience <br className="sm:block hidden" /> How We Work
+        Let's Experience <br className="sm:block hidden" /> How It Work
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       Fixal offers apartment maintenance services through WhatsApp for quick and easy booking. 
