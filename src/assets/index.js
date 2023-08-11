@@ -1,8 +1,8 @@
 import logo from "./logo.png";
 import quotes from "./quotes.svg";
-import send from "./Send.svg";
-import shield from "./Shield.svg";
-import star from "./Star.svg";
+import svg3 from "./svg3.svg";
+import svg2 from "./svg2.svg";
+import svg1 from "./svg1.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import google from "./google.svg";
@@ -17,9 +17,9 @@ import people03 from "./people03.png";
 export {
   logo,
   quotes,
-  send,
-  shield,
-  star,
+  svg3,
+  svg2,
+  svg1,
   menu,
   close,
   google,

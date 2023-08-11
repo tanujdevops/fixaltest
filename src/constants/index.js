@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, svg3, svg2, svg1  } from "../assets";
 
 export const navLinks = [
   {
@@ -32,21 +32,21 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
+    icon: svg1,
     title: "Complete Apartment Maintenance Solutions",
     content:
       "Elevate your living spaces with comprehensive and reliable apartment maintenance services.",
   },
   {
     id: "feature-2",
-    icon: shield,
+    icon: svg2,
     title: "Secure and Hassle-Free Maintenance",
     content:
       "Your trusted partner, providing 100% secured and worry-free apartment maintenance.",
   },
   {
     id: "feature-3",
-    icon: send,
+    icon: svg3,
     title: "Efficient Maintenance for Savings",
     content:
       "Streamlined apartment maintenance solutions that save you time and money.",
