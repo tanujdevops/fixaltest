@@ -13,7 +13,7 @@ const Services = () => (
         At FIXAL, we offer a wide range of services to meet your construction and maintenance needs. Our services include:
       </p>
 
-      <ul className={`${styles.paragraph} mt-5 list-disc pl-8`}>
+      <ul className={`font-poppins text-white mt-5 list-disc pl-8`} style={{ fontSize: '20px' }}>
         <li>Waterproofing</li>
         <li>Electrical Services</li>
         <li>Plumbing Solutions</li>

@@ -38,7 +38,7 @@ const Hero = () => {
 
         </div>
 
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <p className={`font-poppins text-white max-w-[470px] mt-5`} style={{ fontSize: '20px' }}>
           
           Apartment Maintenance via WhatsApp.
 
