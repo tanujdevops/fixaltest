@@ -1,33 +1,55 @@
+import React from 'react';
 import styles, { layout } from "../style";
 import Lottie from 'lottie-react';
 import animation from '../assets/animation_how.json';
 import animation_whatsapp from '../assets/animation_whatsapp.json';
 
-const HowWeWork = () => (
-  <section className={layout.sectionReverse}>
-    <div className={layout.sectionImgReverse}>
-      <Lottie animationData={animation} className="w-[600px] h-[600px] relative z-[5]" />
-      {/* gradient start */}
-      <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
-      <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
-      {/* gradient end */}
-    </div>
+const HowWeWork = () => {
+  const openWhatsAppLink = () => {
+    window.open(
+      'https://api.whatsapp.com/send?phone=917972281609&text=Hi#contact_us&title=Fixal',
+      '_blank'
+    );
+  };
 
-    <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-        Let's Experience <br className="sm:block hidden" /> How We Work
-      </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Fixal offers apartment maintenance services through WhatsApp for quick and easy booking. 
-      Clients can simply message us their maintenance needs, 
-      and we'll promptly respond with available slots and service options. 
-      Our convenient WhatsApp platform ensures hassle-free communication and efficient scheduling, 
-      making apartment maintenance a breeze.
-      </p>
+  return (
+    <section className={layout.sectionReverse}>
+      <div className={layout.sectionImgReverse}>
+        <div
+          role="button"
+          onClick={openWhatsAppLink}
+          className="cursor-pointer"
+        >
+          <Lottie animationData={animation} className="w-[600px] h-[600px] relative z-[5]" />
+          {/* gradient start */}
+          <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
+          <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
+          {/* gradient end */}
+        </div>
+      </div>
 
-        <Lottie animationData={animation_whatsapp} className="mt-5 w-[75px] h-[75px]" />
-    </div>
-  </section>
-);
+      <div className={layout.sectionInfo}>
+        <h2 className={styles.heading2}>
+          Let's Experience <br className="sm:block hidden" /> How We Work
+        </h2>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+          Fixal offers apartment maintenance services through WhatsApp for quick and easy booking. 
+          Clients can simply message us their maintenance needs, 
+          and we'll promptly respond with available slots and service options. 
+          Our convenient WhatsApp platform ensures hassle-free communication and efficient scheduling, 
+          making apartment maintenance a breeze.
+        </p>
+
+        <div
+          role="button"
+          onClick={openWhatsAppLink}
+          className="mt-5 cursor-pointer"
+        >
+          <Lottie animationData={animation_whatsapp} className="w-[75px] h-[75px]" />
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export default HowWeWork;
