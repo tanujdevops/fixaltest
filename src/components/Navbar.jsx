@@ -1,10 +1,24 @@
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
+
+  // Add this useEffect to integrate OTPLESS Sign In and retrieve user information
+  useEffect(() => {
+    // OTPLESS Sign In script
+    const script = document.createElement("script");
+    script.src = "https://otpless.com/auth.js";
+    script.setAttribute("cid", "Z72YODFU0SFANHUDD8UC75PJDCR1YLG2"); // Replace with your actual CID
+    document.body.appendChild(script);
+
+    // Define the callback function to handle user information
+    window.otpless = (otplessUser) => {
+      alert(JSON.stringify(otplessUser));
+    };
+  }, []);
 
   const handleNavItemClick = (nav) => {
     setActive(nav.title);
@@ -13,7 +27,7 @@ const Navbar = () => {
       window.location.href = nav.url;
     }
     if (nav.id === "contact_us") {
-      // Redirect to the external URL for "Book Now"
+      // Redirect to the external URL for "Contact Us"
       window.location.href = nav.url;
     }
   };
